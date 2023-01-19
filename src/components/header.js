@@ -1,13 +1,13 @@
 import React from "react";
-import Logo from "../../public/assests/images/logo.svg";
+import Logo from "../assests/images/logo.svg";
 import {Link} from "react-router-dom";
-import '../../public/assests/css/header.css'
+import '../assests/css/header.css'
  
 const Header = () => {
     return (
         <div>
             <div>
-                <img src={Logo} alt="mlcLogo"/>
+                <img src= {Logo} alt="mlcLogo"/>
             </div>
             <div>
                 <ul>
