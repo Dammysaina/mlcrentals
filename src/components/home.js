@@ -1,4 +1,5 @@
 import React from "react";
+import Map from "./map";
 
 
 
@@ -10,7 +11,7 @@ const Home = () => {
             </div>
             <div>
                 <div>
-
+                    <Map />
                 </div>
                 <div>
                     
