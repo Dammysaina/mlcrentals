@@ -1,5 +1,5 @@
 import React from "react";
-import Map from "./map";
+// import Map from "./map";
 
 
 
@@ -11,7 +11,7 @@ const Home = () => {
             </div>
             <div>
                 <div>
-                    <Map />
+                    {/* <Map /> */}
                 </div>
                 <div>
                     
