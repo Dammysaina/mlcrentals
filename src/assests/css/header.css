@@ -1,4 +1,19 @@
 .header_container {
     background-color: black;
     display: flex;
+    padding: 2rem 1rem;
+    border-bottom: 1px solid white;
 }
+.header_link {
+    color: aqua;
+}
+.header_link ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 15rem;
+}
+.header_link ul li:not(:last-child) {
+    margin-right: 60px;
+  }

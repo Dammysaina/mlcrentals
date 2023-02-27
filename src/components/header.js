@@ -6,10 +6,10 @@ import "../assests/css/header.css"
 const Header = () => {
   return (
     <div className="header_container">
-      <div>
+      <div className="header_logo">
         <img src={Logo} alt="mlcLogo" />
       </div>
-      <div>
+      <div className="header_link">
         <ul>
           <li>
             Home
