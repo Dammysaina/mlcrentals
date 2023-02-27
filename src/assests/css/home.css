@@ -1,4 +1,32 @@
 .home_container {
     background-image: url("../images/housebackground.svg");
+    background-repeat: no-repeat;
     height: 50rem;
+    display: flex;
+    margin-top: -10rem;
+    z-index: -2;
+    padding: 15rem 5rem 0 5rem;
+}
+.affordable_place {
+    color: #ffffff;
+    font-weight: 550;
+    font-size: 3rem;
+    width: 30rem;
+}
+.map_select {
+    margin-left: 10rem;
+    width: 20rem;
+}
+.map_container {
+    width: 20rem;
+}
+.map {
+    width: 20rem;
+    height: 20rem; 
+    border-radius: 0.5rem;
+    padding-top: 1.2rem;
+    /* box-shadow: ; */
+}
+.select_container {
+    background-color: antiquewhite;
 }

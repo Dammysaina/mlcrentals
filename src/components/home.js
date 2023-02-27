@@ -7,15 +7,23 @@ import "../assests/css/home.css"
 const Home = () => {
     return (
         <div className="home_container">
-            <div>
-                <p>The most affortable place to stay in the san franciso bay area</p>
+            <div className="affordable_place">
+                <p>The Most Affortable Place To Stay In The San Franciso Bay Area</p>
             </div>
-            <div>
-                <div >
-                    <Map />
+            <div className="map_select">
+                <div className="map_container">
+                    <Map alt="map" />
                 </div>
-                <div>
-                    
+                <div className="select_container">
+                   <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                    <div>
+                        
+                    </div>
                 </div>
             </div>
         </div>
