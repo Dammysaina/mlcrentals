@@ -1,48 +1,60 @@
 .home_container {
-    background-image: url("../images/housebackground.svg");
-    background-repeat: no-repeat;
-    height: 50rem;
-    display: flex;
-    margin-top: -10rem;
-    z-index: -1;
-    padding: 15rem 5rem 0 5rem;
-    border-bottom: 1px solid black;
+  background-image: url("../images/housebackground.svg");
+  background-repeat: no-repeat;
+  height: 50rem;
+  display: flex;
+  margin-top: -10rem;
+  z-index: -1;
+  padding: 15rem 5rem 0 5rem;
 }
 .affordable_place {
-    color: #ffffff;
-    font-weight: 550;
-    font-size: 3rem;
-    width: 30rem;
+  color: #ffffff;
+  font-weight: 550;
+  font-size: 3rem;
+  width: 30rem;
 }
 .map_select {
-    margin-left: 10rem;
-    width: 20rem;
+  margin-left: 10rem;
+  width: 20rem;
+  height: 15rem;
 }
 .map_container {
-    width: 20rem;
+  width: 25rem;
 }
 .map {
-    width: 20rem;
-    height: 20rem; 
-    border-radius: 0.5rem;
-    padding-top: 1.2rem;
-    /* box-shadow: ; */
+  width: 22rem;
+  height: 15rem;
+  border-radius: 0.5rem;
+  padding-top: 1.2rem;
+  /* box-shadow: ; */
 }
 .select_container {
-    background-color:#FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.2);;
-    display: flex;
-    padding: 1rem;
-    border-radius: 0.5rem;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  padding: 1.2rem 2rem;
+  border-radius: 0.5rem;
+  width: 16rem;
+  margin-top: 1.5rem;
 }
-.select_container select {
-    padding: 0.7rem;
-    background-color: #F9F9F9;
-border: 1px solid #E6E6E6;
-border-radius: 5px 0px 0px 5px;
+.select_neighborhoodone {
+  padding: 0.7rem;
+  background-color: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px 0px 0px 5px;
+}
+.select_neighborhoodtwo {
+  padding: 0.7rem;
+  background-color: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  /* border-radius: 5px 0px 0px 5px; */
 }
 .select_image {
-    background-color: #23A6F0;
-    border: 1px solid #E6E6E6;
-    border-radius: 0px 5px 5px 0px;
+  background-color: #23a6f0;
+  border: 1px solid #e6e6e6;
+  border-radius: 0px 5px 5px 0px;
+  padding: 0.6rem;
+}
+.select_image img {
+   width: 1.1rem;
 }

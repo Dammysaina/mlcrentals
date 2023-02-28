@@ -13,9 +13,6 @@ const Map = () => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        {/* <Marker position={[4.8439383, 7.0409827]}>
-          
-        </Marker> */}
       </MapContainer>
     </div>
   );
