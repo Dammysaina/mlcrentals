@@ -4,8 +4,9 @@
     height: 50rem;
     display: flex;
     margin-top: -10rem;
-    z-index: -2;
+    z-index: -1;
     padding: 15rem 5rem 0 5rem;
+    border-bottom: 1px solid black;
 }
 .affordable_place {
     color: #ffffff;
@@ -28,5 +29,20 @@
     /* box-shadow: ; */
 }
 .select_container {
-    background-color: antiquewhite;
+    background-color:#FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);;
+    display: flex;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.select_container select {
+    padding: 0.7rem;
+    background-color: #F9F9F9;
+border: 1px solid #E6E6E6;
+border-radius: 5px 0px 0px 5px;
+}
+.select_image {
+    background-color: #23A6F0;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 5px 5px 0px;
 }
