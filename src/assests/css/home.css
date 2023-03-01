@@ -22,7 +22,7 @@
   width: 25rem;
 }
 .map {
-  width: 22rem;
+  width: 21rem;
   height: 15rem;
   border-radius: 0.5rem;
   padding-top: 1.2rem;
@@ -34,7 +34,7 @@
   display: flex;
   padding: 1.2rem 2rem;
   border-radius: 0.5rem;
-  width: 16rem;
+  width: 17rem;
   margin-top: 1.5rem;
 }
 .select_neighborhoodone {
@@ -54,7 +54,9 @@
   border: 1px solid #e6e6e6;
   border-radius: 0px 5px 5px 0px;
   padding: 0.6rem;
+  /* width: 3rem; */
+  height: 1.3rem;
 }
 .select_image img {
-   width: 1.1rem;
+  width: 1.4rem;
 }
