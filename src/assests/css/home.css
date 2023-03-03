@@ -1,5 +1,7 @@
 .home_container {
   background-image: url("../images/housebackground.svg");
+  background-color: #000000;
+  
   background-repeat: no-repeat;
   height: 50rem;
   display: flex;
@@ -47,16 +49,30 @@
   padding: 0.7rem;
   background-color: #f9f9f9;
   border: 1px solid #e6e6e6;
-  /* border-radius: 5px 0px 0px 5px; */
 }
 .select_image {
   background-color: #23a6f0;
   border: 1px solid #e6e6e6;
   border-radius: 0px 5px 5px 0px;
   padding: 0.6rem;
-  /* width: 3rem; */
   height: 1.3rem;
 }
 .select_image img {
   width: 1.4rem;
+}
+.minimum_container {
+  margin: -10rem 5rem 0 5rem;
+}
+.minimum_living::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 55rem;
+  height: 15px;
+  width: 19%;
+  border-bottom: 3px solid #f4511e;
+}
+.minimum_living p {
+  font-size: 1.3rem;
+  font-weight: 650;
 }
