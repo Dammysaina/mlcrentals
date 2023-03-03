@@ -2,6 +2,8 @@ import React from "react";
 import Map from "./map";
 import "../assests/css/home.css";
 import SEARCH from "../assests/images/search.svg";
+import POOL from "../assests/images/poolside.svg";
+import DOLLARS from "../assests/images/dollar.svg"
 
 const Home = () => {
   return (
@@ -59,10 +61,14 @@ const Home = () => {
         </div>
         <div>
           <div>
-            <img src="" alt=" house"/>
+            <img src={POOL} alt=" house"/>
           </div>
           <div>
-
+            <div>
+              <img src={DOLLARS} alt="dollars"/>
+              <p>Pay as Little
+as Possible!</p>
+            </div>
           </div>
         </div>
       </div>

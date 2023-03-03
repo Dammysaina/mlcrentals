@@ -1,7 +1,7 @@
 .home_container {
   background-image: url("../images/housebackground.svg");
-  background-color: #000000;
-  
+  /* background-color: #000000; */
+
   background-repeat: no-repeat;
   height: 50rem;
   display: flex;
