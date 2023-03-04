@@ -76,3 +76,9 @@
   font-size: 1.3rem;
   font-weight: 650;
 }
+.pool_container {
+  display: flex;
+}
+.pool_image img {
+  width: 20rem;
+}

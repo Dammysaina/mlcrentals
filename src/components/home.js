@@ -3,7 +3,7 @@ import Map from "./map";
 import "../assests/css/home.css";
 import SEARCH from "../assests/images/search.svg";
 import POOL from "../assests/images/poolside.svg";
-import DOLLARS from "../assests/images/dollar.svg"
+import Card from "./card";
 
 const Home = () => {
   return (
@@ -59,16 +59,22 @@ const Home = () => {
         <div className="minimum_living">
           <p>Minimum Living Cost Takes Care Of Everything</p>
         </div>
-        <div>
-          <div>
-            <img src={POOL} alt=" house"/>
+        <div className="pool_container">
+          <div className="pool_image">
+            <img src={POOL} alt=" house" />
           </div>
           <div>
-            <div>
-              <img src={DOLLARS} alt="dollars"/>
-              <p>Pay as Little
-as Possible!</p>
-            </div>
+            {Selection.map((selectionItem) => {
+              return (
+                // eslint-disable-next-line react/jsx-key
+                <Card
+                  className="whatwedo_card"
+                  image={selectionItem.image}
+                  header={selectionItem.header}
+                  body={selectionItem.body}
+                />
+              );
+            })}
           </div>
         </div>
       </div>
