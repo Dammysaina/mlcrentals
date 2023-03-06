@@ -4,6 +4,7 @@ import "../assests/css/home.css";
 import SEARCH from "../assests/images/search.svg";
 import POOL from "../assests/images/poolside.svg";
 import Card from "./card";
+import Selection from "./selection";
 
 const Home = () => {
   return (
@@ -63,7 +64,7 @@ const Home = () => {
           <div className="pool_image">
             <img src={POOL} alt=" house" />
           </div>
-          <div>
+          <div className="pay_container">
             {Selection.map((selectionItem) => {
               return (
                 // eslint-disable-next-line react/jsx-key

@@ -81,4 +81,22 @@
 }
 .pool_image img {
   width: 20rem;
+  margin-left: -2rem;
+}
+.selection:not(:last-child) {
+  margin-right: 60px;
+}
+.selection_image {
+  background: #ffffff;
+  box-shadow: 0px 12px 19px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width: 10rem;
+}
+.selection img {
+  width: 1.3rem;
+  padding: 1rem;
+}
+.pay_container {
+  display: flex;
+  justify-content: space-between;
 }
