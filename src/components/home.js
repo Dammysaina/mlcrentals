@@ -5,6 +5,7 @@ import SEARCH from "../assests/images/search.svg";
 import POOL from "../assests/images/poolside.svg";
 import Card from "./card";
 import Selection from "./selection";
+import Properties from "./properties";
 
 const Home = () => {
   return (
@@ -80,7 +81,7 @@ const Home = () => {
         </div>
       </div>
       <div>
-        
+        <Properties/>
       </div>
     </div>
   );

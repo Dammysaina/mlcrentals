@@ -6,7 +6,7 @@ const Properties = () => {
         <div>
             <div>
                 <p>list Of Properties</p>
-                <CustomButton />
+                <CustomButton> </CustomButton>
             </div>
             <div>
 
