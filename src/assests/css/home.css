@@ -78,25 +78,33 @@
 }
 .pool_container {
   display: flex;
+  margin-top: 3rem;
 }
 .pool_image img {
   width: 20rem;
   margin-left: -2rem;
 }
+.selection {
+  width: 5rem;
+  margin: 1rem 1.5rem 0 0;
+}
+
 .selection:not(:last-child) {
   margin-right: 60px;
-}
+} 
 .selection_image {
   background: #ffffff;
   box-shadow: 0px 12px 19px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
-  width: 10rem;
 }
 .selection img {
-  width: 1.3rem;
-  padding: 1rem;
+  width: 2rem;
+  padding: 1.5rem;
 }
+
 .pay_container {
   display: flex;
   justify-content: space-between;
-}
+  width: 5rem;
+  /* margin-top: 0.5rem; */
+} 
