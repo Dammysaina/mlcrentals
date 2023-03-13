@@ -67,10 +67,10 @@
   content: "";
   position: absolute;
   bottom: 0;
-  top: 55rem;
+  top: 56rem;
   height: 15px;
   width: 19%;
-  border-bottom: 3px solid #f4511e;
+  border-bottom: 1px solid #f4511e;
 }
 .minimum_living p {
   font-size: 1.3rem;
@@ -108,3 +108,19 @@
   width: 5rem;
   /* margin-top: 0.5rem; */
 } 
+.property_container {
+  margin: 1rem 5rem;
+}
+.property_all {
+  display: flex;
+  justify-content: space-between;
+}
+.property_all p::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 87.2rem;
+  height: 15px;
+  width: 10%;
+  border-bottom: 1px solid #f4511e;
+}
